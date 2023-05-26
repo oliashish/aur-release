@@ -1,0 +1,8 @@
+version: v0
+kind: Pipeline
+name: default
+steps:
+  - name: testing
+    image: ubuntu
+    commands:
+      - echo "hello world this is patr ci"
